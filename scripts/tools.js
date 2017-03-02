@@ -8,7 +8,8 @@ function Tool (opts) {
 
 Tool.allTools = []
 
-Tool.allCategories = tools.map(function(ele){return ele.Category.replace(/\s/g, '')}).filter(function(ele, index, array){
+Tool.allCategories = tools
+  .map(function(ele){return ele.Category.replace(/\s/g, '')}).filter(function(ele, index, array){
   return array.indexOf(ele) === index;
 })
 
@@ -30,8 +31,4 @@ Tool.renderAll = function(templateid, parent, array) {
 }
 
 Tool.renderAll('#toolGrid-template', '.grid', tools)
-Tool.renderAll('#buttons-template', '.button-group', Tool.allCategories)
-
-var $grid = $('.grid').isotope({
-  // options
-});
+Tool.renderAll('#buttons-template', '.dropdown-menu', Tool.allCategories)
