@@ -1,0 +1,45 @@
+.element-item {
+  width: 20%;
+  padding: 5px;
+  margin: 5px;
+  box-sizing: padding-box;
+  border-radius: 5px;
+}
+
+.element-item a {
+  text-decoration: none;
+  color: white;
+
+}
+
+.ExpressionDatabases{
+  background-color: #5D4157;
+}
+
+.eQTLDatabases{
+  background-color: #F0B49E;
+}
+.ExpressionDatabases{
+  background-color: #A8CABA;
+}
+.HumanVariationsDatabases{
+  background-color: #CAD7B2;
+}
+.FunctionalandGenomicDatabases{
+  background-color: #EBE3AA;
+}
+.SummaryStatistics{
+  background-color: #68B3AF;
+}
+
+.ToolsforAnalysis {
+  background-color: #87BDB1;
+}
+
+.PrimaryforPharmacogenomics{
+  background-color: #AACCB1;
+}
+
+.Genotype-PhenotypeDatabases{
+  background-color: #B38184;
+}
