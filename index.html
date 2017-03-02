@@ -7,21 +7,26 @@
 
     <link rel="stylesheet" href="css/grid.css" media="screen" title="no title" charset="utf-8">
     <script id="toolGrid-template" type="text/x-handlebars-template">
-      <div class="element-item {{#each keywordsList}}{{this }}{{/each}} {{categoryID}} {{#if Top_choice}}topChoice{{/if}}"><h4><a href="{{url}}">{{name}}</a></h4></div>
+      <div class="element-item {{#each keywordsList}}{{this }}{{/each}} {{categoryID}} {{#if Top_choice}}topChoice{{/if}}">
+        <h4><a href="{{url}}">{{name}}</a></h4>
+        {{#if stats}}<a href="{{stats}}">View Summary Statistics</a>{{/if}}
+      </div>
     </script>
     <script id="buttons-template" type="text/x-handlebars-template">
       <button class="btn btn-small {{this}}" data-filter=".{{this}}">{{this}}</button>
     </script>
   </head>
   <body>
-    <div class="button-group filter-button-group">
-      <button class="btn btn-small btn-secondary" data-filter="*">show all</button>
-      <button class="btn btn-small btn-secondary" data-filter=".topChoice">Top Choices</button>
+    <nav class="navbar navbar-default navbar-fixed-top">
+      <div class="button-group filter-button-group container-fluid">
+        <button class="btn btn-small btn-secondary" data-filter="*">show all</button>
+        <button class="btn btn-small btn-secondary" data-filter=".topChoice">Top Choices</button>
 
-      <!-- <button data-filter=":not(.transition)">not transition</button>
-      <button data-filter=".metal:not(.transition)">metal but not transition</button> -->
-    </div>
-    <div class="grid">
+        <!-- <button data-filter=":not(.transition)">not transition</button>
+        <button data-filter=".metal:not(.transition)">metal but not transition</button> -->
+      </div>
+    </nav>
+    <div class="grid container">
       <!-- <div class="element-item transition metal">...</div> -->
 
     </div>
