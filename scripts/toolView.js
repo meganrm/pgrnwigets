@@ -8,14 +8,12 @@ var $grid = $('.grid').isotope({
 // filter items on button click
 $('.filter-button-group').on('click', '.btn-filter', function() {
   $('.about').empty();
-
   var filterValue = $(this).attr('data-filter');
   $grid.isotope({ filter: filterValue });
   var cat = $(this).attr('data-filter').replace(/\./g, '')
   var catInfo = Tool.allCategories.filter(function(ele){
     return ele.categoryID === cat;
   })[0]
-  console.log(cat, catInfo);
   var source = $('#category-template').html();
   var renderTemplate = Handlebars.compile(source);
   $('.about').append(renderTemplate(catInfo));
