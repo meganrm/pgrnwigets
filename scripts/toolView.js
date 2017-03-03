@@ -4,6 +4,13 @@ var $grid = $('.grid').isotope({
 
 });
 
+function categories(){
+  var source = $('#category-template').html();
+  var renderTemplate = Handlebars.compile(source);
+  Tool.allCategories.forEach(function(ele){
+    $('.about').append(renderTemplate(ele));
+  })
+}
 
 // filter items on button click
 $('.filter-button-group').on('click', '.btn-filter', function() {
@@ -14,10 +21,15 @@ $('.filter-button-group').on('click', '.btn-filter', function() {
   var catInfo = Tool.allCategories.filter(function(ele){
     return ele.categoryID === cat;
   })[0]
+  if (!catInfo) {
+    categories();
+  }
   var source = $('#category-template').html();
   var renderTemplate = Handlebars.compile(source);
   $('.about').append(renderTemplate(catInfo));
 });
+
+
 
 // quick search regex
 var qsRegex;

@@ -6,7 +6,7 @@
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
     <link rel="stylesheet" href="css/grid.css" media="screen" title="no title" charset="utf-8">
     <script id="category-template" type="text/x-handlebars-template">
-      {{#if Category}}<h4>{{Category}}: <small>{{subtitle}}</small></h4>{{/if}}
+      {{#if Category}}<h4 class="col-md-4 {{categoryID}}">{{Category}}: <small>{{subtitle}}</small></h4>{{/if}}
     </script>
 
     <script id="toolGrid-template" type="text/x-handlebars-template">
@@ -41,7 +41,8 @@
         <button data-filter=".metal:not(.transition)">metal but not transition</button> -->
       </div>
     </nav>
-    <div class="about container">
+    <div class="about container-fluid">
+
     </div>
 
     <div class="grid container">
