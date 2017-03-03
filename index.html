@@ -4,16 +4,20 @@
     <meta charset="utf-8">
     <title>PGRN Tools</title>
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
-
     <link rel="stylesheet" href="css/grid.css" media="screen" title="no title" charset="utf-8">
+    <script id="category-template" type="text/x-handlebars-template">
+      {{#if Category}}<h4>{{Category}}: <small>{{subtitle}}</small></h4>{{/if}}
+    </script>
+
     <script id="toolGrid-template" type="text/x-handlebars-template">
       <div class="element-item {{#each keywordsList}}{{this }}{{/each}} {{categoryID}} {{#if Top_choice}}topChoice{{/if}}">
-        <h4><a href="{{url}}">{{name}}</a></h4>
+        <h4><a href="{{url}}">{{#if Top_choice}}*{{/if}}{{name}}</a></h4>
         {{#if stats}}<a href="{{stats}}">View Summary Statistics</a>{{/if}}
       </div>
     </script>
+
     <script id="buttons-template" type="text/x-handlebars-template">
-      <li><a class="text-white btn-filter {{this}}" data-filter=".{{this}}">{{this}}</a></li>
+      <li><a class="text-white btn-filter" data-filter=".{{categoryID}}">{{Category}}</a></li>
     </script>
   </head>
   <body>
@@ -21,7 +25,7 @@
       <div class="button-group filter-button-group container">
         <ul class="nav navbar-nav">
           <li><a class="btn text-white btn-filter" data-filter="*">Show All</a></li>
-          <li><a class="btn text-white btn-filter" data-filter=".topChoice">Top Choices</a></li>
+          <li><a class="btn text-white btn-filter" data-filter=".topChoice">* Top Choices</a></li>
           <li class="dropdown">
           <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Category <span class="caret"></span></a>
           <ul class="dropdown-menu">
@@ -37,6 +41,9 @@
         <button data-filter=".metal:not(.transition)">metal but not transition</button> -->
       </div>
     </nav>
+    <div class="about container">
+    </div>
+
     <div class="grid container">
       <!-- <div class="element-item transition metal">...</div> -->
     </div>

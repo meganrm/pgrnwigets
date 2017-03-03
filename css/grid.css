@@ -1,4 +1,4 @@
-body { padding-top: 130px; }
+body { padding-top: 70px; }
 
 
 .element-item {
@@ -13,7 +13,7 @@ body { padding-top: 130px; }
   color: white;
 }
 
-.navbar-inverse .navbar-nav>li>a, .navbar-inverse .dropdown-menu a{
+.navbar-inverse .navbar-nav>li>a{
   color: white;
 }
 
