@@ -11,7 +11,7 @@
 
     <script id="toolGrid-template" type="text/x-handlebars-template">
       <div class="element-item {{#each keywordsList}}{{this }}{{/each}} {{categoryID}} {{#if Top_choice}}topChoice{{/if}}">
-        <h4><a href="{{url}}">{{#if Top_choice}}*{{/if}}{{name}}</a></h4>
+        <h4><a href="{{url}}">{{name}}</a></h4>
         {{#if stats}}<a href="{{stats}}">View Summary Statistics</a>{{/if}}
       </div>
     </script>
@@ -25,7 +25,6 @@
       <div class="button-group filter-button-group container">
         <ul class="nav navbar-nav">
           <li><a class="btn text-white btn-filter" data-filter="*">Show All</a></li>
-          <li><a class="btn text-white btn-filter" data-filter=".topChoice">* Top Choices</a></li>
           <li class="dropdown">
           <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Category <span class="caret"></span></a>
           <ul class="dropdown-menu">
@@ -51,7 +50,7 @@
 
     <script type="text/javascript" src="vendor/scripts/jquery.js"></script>
     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
-    <script type="text/javascript" src="vendor/scripts/handlebars.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/handlebars.js/4.0.6/handlebars.min.js"></script>
     <script src="https://unpkg.com/isotope-layout@3/dist/isotope.pkgd.min.js"></script>
     <script type="text/javascript" src="data.js"></script>
     <script type="text/javascript" src="scripts/tools.js"></script>

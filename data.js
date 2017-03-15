@@ -26,7 +26,6 @@ var tools = [
     "Subtitle": "Resources and topics related to pharmacogenomics and precision medicine.",
     "stats": ""
   },
-
   {
     "Top_choice": "",
     "name": "Blood eQTL",
@@ -65,15 +64,6 @@ var tools = [
   },
   {
     "Top_choice": "",
-    "name": "NCBI eQTL Browser",
-    "url": "https://www.ncbi.nlm.nih.gov/projects/gap/eqtl/index.cgi",
-    "Keywords": "eQTL, SNP, variants, polymorphisms",
-    "Category": "eQTL Databases",
-    "Subtitle": "​ These resources archive or display results of several research projects on association between genetic variations and expression phenotypes.",
-    "stats": ""
-  },
-  {
-    "Top_choice": "",
     "name": "SNP and CNV Annotation Database",
     "url": "http://www.scandb.org/newinterface/index_v1.html",
     "Keywords": "eQTL, SNP, CNV, linkage disequilibrium, variants, polymorphisms, LCL",
@@ -81,7 +71,6 @@ var tools = [
     "Subtitle": "​ These resources archive or display results of several research projects on association between genetic variations and expression phenotypes.",
     "stats": ""
   },
-  
   {
     "Top_choice": "",
     "name": "BioGPS Gene Portal System",
@@ -276,6 +265,24 @@ var tools = [
     "name": "GWAS Catalog",
     "url": "https://www.ebi.ac.uk/gwas/",
     "Keywords": "SNP, phenotype, trait, pharmacogenomics",
+    "Category": "Genotype-Phenotype Databases",
+    "Subtitle": "These databases archive or display correlative or association results between expression levels or genetic variants with phenotypes (e.g. drug toxicity, traits, disease, metabolites levels).",
+    "stats": ""
+  },
+  {
+    "Top_choice": "",
+    "name": "GWAS Central",
+    "url": "http://www.gwascentral.org/",
+    "Keywords": "SNP, phenotype, trait",
+    "Category": "Genotype-Phenotype Databases",
+    "Subtitle": "These databases archive or display correlative or association results between expression levels or genetic variants with phenotypes (e.g. drug toxicity, traits, disease, metabolites levels).",
+    "stats": ""
+  },
+  {
+    "Top_choice": "",
+    "name": "Human Metabolic Individuality",
+    "url": "http://www.metabolomix.com/a-table-of-all-published-gwas-with-proteomics/",
+    "Keywords": "Metabolites, Metabolome, Proteomics",
     "Category": "Genotype-Phenotype Databases",
     "Subtitle": "These databases archive or display correlative or association results between expression levels or genetic variants with phenotypes (e.g. drug toxicity, traits, disease, metabolites levels).",
     "stats": ""
@@ -506,6 +513,15 @@ var tools = [
     "stats": ""
   },
   {
+    "Top_choice": "",
+    "name": "Combined Annotation Dependent Depletion (CADD)",
+    "url": "http://cadd.gs.washington.edu/",
+    "Keywords": "SNP, prediction",
+    "Category": "Functional and Genomic Databases",
+    "Subtitle": "These tools or resources are widely used to determine functional regions or elements in the human genome.",
+    "stats": ""
+  },
+  {
     "Top_choice": "Y",
     "name": "ENCODE Project",
     "url": "https://www.encodeproject.org/",
@@ -534,6 +550,15 @@ var tools = [
   },
   {
     "Top_choice": "",
+    "name": "Mendelian Clinically Applicable Pathogenicity (M-CAP) Score",
+    "url": "http://bejerano.stanford.edu/mcap/",
+    "Keywords": "prediction, variants",
+    "Category": "Functional and Genomic Databases",
+    "Subtitle": "These tools or resources are widely used to determine functional regions or elements in the human genome.",
+    "stats": ""
+  },
+  {
+    "Top_choice": "",
     "name": "Open Targets Platform",
     "url": "https://www.targetvalidation.org/",
     "Keywords": "disease, target",
@@ -545,7 +570,7 @@ var tools = [
     "Top_choice": "Y",
     "name": "PolyPhen-2",
     "url": "http://genetics.bwh.harvard.edu/pph2/",
-    "Keywords": "non-synonymous SNP",
+    "Keywords": "non-synonymous SNP, prediction",
     "Category": "Functional and Genomic Databases",
     "Subtitle": "These tools or resources are widely used to determine functional regions or elements in the human genome.",
     "stats": ""
@@ -731,10 +756,28 @@ var tools = [
     "stats": ""
   },
   {
+    "Top_choice": "",
+    "name": "PharmCAT/PharmGKB",
+    "url": "https://github.com/PharmGKB/PharmCAT",
+    "Keywords": "code, tools, polymorphisms, sequencing",
+    "Category": "Tools for Analysis",
+    "Subtitle": "These tools are widely used for various analyses, including imputation, or visualization of genome sequence data and genetic association studies.",
+    "stats": ""
+  },
+  {
     "Top_choice": "Y",
     "name": "PLINK",
     "url": "https://www.cog-genomics.org/plink2",
     "Keywords": "GWAS, statistical analysis, frequency, association",
+    "Category": "Tools for Analysis",
+    "Subtitle": "These tools are widely used for various analyses, including imputation, or visualization of genome sequence data and genetic association studies.",
+    "stats": ""
+  },
+  {
+    "Top_choice": "",
+    "name": "PrediXcan",
+    "url": "https://github.com/hakyimlab/PrediXcan",
+    "Keywords": "association, disease trait",
     "Category": "Tools for Analysis",
     "Subtitle": "These tools are widely used for various analyses, including imputation, or visualization of genome sequence data and genetic association studies.",
     "stats": ""

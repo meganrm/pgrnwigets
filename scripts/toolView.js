@@ -56,5 +56,3 @@ function debounce( fn, threshold ) {
     timeout = setTimeout( delayed, threshold || 100 );
   }
 }
-
-$('[data-filter=".topChoice"]').click();
