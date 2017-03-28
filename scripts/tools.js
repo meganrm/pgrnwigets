@@ -17,7 +17,6 @@ Tool.allCategories = tools
     }
   }).filter(function(ele, index, array){
     return array.map(function(mapItem){ return mapItem['categoryID']; }).indexOf(ele['categoryID']) === index;
-
 })
 
 // init Isotope

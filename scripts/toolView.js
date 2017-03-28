@@ -8,25 +8,19 @@ function categories(){
   var source = $('#category-template').html();
   var renderTemplate = Handlebars.compile(source);
   Tool.allCategories.forEach(function(ele){
-    $('.about').append(renderTemplate(ele));
+    $(renderTemplate(ele)).addClass('element-item').appendTo($('.about'))
   })
 }
 
 // filter items on button click
 $('.filter-button-group').on('click', '.btn-filter', function() {
-  $('.about').empty();
   var filterValue = $(this).attr('data-filter');
   $grid.isotope({ filter: filterValue });
-  var cat = $(this).attr('data-filter').replace(/\./g, '')
-  var catInfo = Tool.allCategories.filter(function(ele){
-    return ele.categoryID === cat;
-  })[0]
-  if (!catInfo) {
-    categories();
-  }
-  var source = $('#category-template').html();
-  var renderTemplate = Handlebars.compile(source);
-  $('.about').append(renderTemplate(catInfo));
+});
+
+$('.about').on('click', '.btn-filter', function() {
+  var filterValue = $(this).attr('data-filter');
+  $grid.isotope({ filter: filterValue });
 });
 
 
@@ -56,3 +50,5 @@ function debounce( fn, threshold ) {
     timeout = setTimeout( delayed, threshold || 100 );
   }
 }
+
+categories();

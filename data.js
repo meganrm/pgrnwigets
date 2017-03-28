@@ -99,6 +99,15 @@ var tools = [
     "stats": ""
   },
   {
+    "Top_choice": "",
+    "name": "Gene Change Browser",
+    "url": "http://genechaser.ucsf.edu/index.php",
+    "Keywords": "expression, microarray",
+    "Category": "Expression Databases",
+    "Subtitle": "This web server enables biologists and clinicians without bioinformatics skills to easily identify biological and clinical conditions in which a gene or set of genes was differentially expressed.",
+    "stats": ""
+  },
+  {
     "Top_choice": "Y",
     "name": "Gene Expression across Normal and Tumor tissue (GENT)",
     "url": "http://medical-genome.kribb.re.kr/GENT/",
@@ -528,6 +537,15 @@ var tools = [
     "Keywords": "ChIP-seq, ChIA-PET, DNase-seq, RNA-seq, CLIP-seq, tissue, cell lines",
     "Category": "Functional and Genomic Databases",
     "Subtitle": "These tools or resources are widely used to determine functional regions or elements in the human genome.",
+    "stats": ""
+  },
+  {
+    "Top_choice": "",
+    "name": "GREAT",
+    "url": "http://bejerano.stanford.edu/great/public/html/",
+    "Keywords": "regulatory, ChIP-seq",
+    "Category": "Functional and Genomic Databases",
+    "Subtitle": "GREAT predicts functions of cis-regulatory regions",
     "stats": ""
   },
   {

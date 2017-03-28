@@ -9,6 +9,13 @@ h4 {
   padding: 10px;
   margin: 5px;
   border-radius: 5px;
+  color: white;
+}
+.element-item small{
+  color: black;
+}
+.about .element-item:hover{
+  filter: brightness(110%);
 }
 
 .element-item a {
@@ -19,58 +26,30 @@ h4 {
 .navbar-inverse .navbar-nav>li>a{
   color: white;
 }
-.grid .ExpressionDatabases{
+.ExpressionDatabases{
   background-color: #5D4157;
 }
-.grid .eQTLDatabases{
+.eQTLDatabases{
   background-color: #413E4A;
 }
-.grid .ExpressionDatabases{
+.ExpressionDatabases{
   background-color: #99B2B7;
 }
-.grid .HumanVariationsDatabases{
+.HumanVariationsDatabases{
   background-color: #A7DBD8;
 }
-.grid .FunctionalandGenomicDatabases{
+.FunctionalandGenomicDatabases{
   background-color: #594F4F;
 }
-.grid .SummaryStatistics{
+.SummaryStatistics{
   background-color: #68B3AF;
 }
-.grid .ToolsforAnalysis {
+.ToolsforAnalysis {
   background-color: #7A6A53;
 }
-.grid .PrimaryforPharmacogenomics{
+.PrimaryforPharmacogenomics{
   background-color: #AACCB1;
 }
-.grid .Genotype-PhenotypeDatabases{
+.Genotype-PhenotypeDatabases{
   background-color: #547980;
-}
-
-.about .ExpressionDatabases{
-  color: #5D4157;
-}
-.about .eQTLDatabases{
-  color: #413E4A;
-}
-.about .ExpressionDatabases{
-  color: #99B2B7;
-}
-.about .HumanVariationsDatabases{
-  color: #A7DBD8;
-}
-.about .FunctionalandGenomicDatabases{
-  color: #594F4F;
-}
-.about .SummaryStatistics{
-  color: #68B3AF;
-}
-.about .ToolsforAnalysis {
-  color: #7A6A53;
-}
-.about .PrimaryforPharmacogenomics{
-  color: #AACCB1;
-}
-.about .Genotype-PhenotypeDatabases{
-  color: #547980;
 }
