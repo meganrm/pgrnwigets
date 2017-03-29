@@ -12,7 +12,7 @@ h4 {
   color: white;
 }
 .element-item small{
-  color: black;
+  color: white;
 }
 .about .element-item:hover{
   filter: brightness(110%);
