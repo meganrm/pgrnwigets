@@ -15,7 +15,7 @@
 
     <script id="toolGrid-template" type="text/x-handlebars-template">
       <div class="element-item {{name}} {{#each keywordsList}}{{this }}{{/each}} {{categoryID}} {{#if Top_choice}}topChoice{{/if}}">
-        <h4><a href="{{url}}">{{name}}</a></h4>
+        <h4><a href="{{url}}" target="_blank">{{name}}</a></h4>
         {{#if stats}}<a href="{{stats}}" target="_blank">View Summary Statistics</a>{{/if}}
       </div>
     </script>
