@@ -55,6 +55,8 @@
     </div>
 
     <script type="text/javascript" src="vendor/scripts/jquery.js"></script>
+    <script type="text/javascript" src="vendor/scripts/iframeResize.js"></script>
+
     <script src="https://cdnjs.cloudflare.com/ajax/libs/tether/1.4.0/js/tether.min.js"></script>
     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-alpha.6/js/bootstrap.min.js" integrity="sha384-vBWWzlZJ8ea9aCX4pEW3rVHjgjt7zpkNpZk+02D9phzyeVkE+jo0ieGizqPLForn" crossorigin="anonymous"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/handlebars.js/4.0.6/handlebars.min.js"></script>
@@ -62,25 +64,6 @@
     <script type="text/javascript" src="data.js"></script>
     <script type="text/javascript" src="scripts/tools.js"></script>
     <script type="text/javascript" src="scripts/toolView.js"></script>
-    <script type="text/javascript">
-    $(window).load(function ()
-          {
-            UpdateDimensions();
-          });
 
-          function UpdateDimensions() {
-            ReferalUrl = 'http://www.pgrn.org/tools.html';
-            try  {
-              var height = $("#iframe-body").height() + 30;
-              var width = $("#iframe-body").outerWidth() + 100;
-
-            if (window.postMessage && ReferalUrl != undefined) {
-              parent.postMessage(height + "," + width, ReferalUrl);
-              }
-            } catch (c) {
-              alert(c.message);
-              }
-            }
-    </script>
   </body>
 </html>
