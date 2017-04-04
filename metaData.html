@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <title></title>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-alpha.6/css/bootstrap.min.css" integrity="sha384-rwoIResjU2yc3z8GV/NPeZWAv56rSmLldC3R/AZzGRnGxQQKnKkoFVhFQhNUwEyJ" crossorigin="anonymous">
+    <script id="hist-template" type="text/x-handlebars-template">
+      <li class="list-group-item justify-content-between"><span class="cat-name">{{name}}</span><span class="count badge badge-default badge-pill">{{count}}</span></li>
+    </script>
+  </head>
+  <body>
+    <div class="container">
+      <div class="row">
+        <div class="col">
+          <h4>Resources</h4>
+          <ul class="list-group" id="resources">
+          </ul>
+        </div>
+        <div class="col">
+          <h4>Expertise</h4>
+          <ul class="list-group" id="expertise">
+          </ul>
+        </div>
+        <div class="col">
+          <h4>Dieases</h4>
+          <ul class="list-group" id="dieases">
+          </ul>
+        </div>
+      </div>
+
+
+
+    </div>
+
+    <script type="text/javascript" src="vendor/scripts/jquery.js"></script>
+    <script src="https://cdn.firebase.com/js/client/2.2.1/firebase.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/handlebars.js/4.0.6/handlebars.min.js"></script>
+    <script type="text/javascript" src="scripts/firebasePGRN.js"></script>
+
+  </body>
+</html>
