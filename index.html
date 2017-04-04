@@ -3,13 +3,13 @@
   <head>
     <meta charset="utf-8">
     <title>PGRN Tools</title>
-    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-alpha.6/css/bootstrap.min.css" integrity="sha384-rwoIResjU2yc3z8GV/NPeZWAv56rSmLldC3R/AZzGRnGxQQKnKkoFVhFQhNUwEyJ" crossorigin="anonymous">
     <link rel="stylesheet" href="css/grid.css" media="screen" title="no title" charset="utf-8">
     <script id="category-template" type="text/x-handlebars-template">
       {{#if Category}}
-      <div class="col-md-4  text-white btn-filter {{categoryID}}" data-filter=".{{categoryID}}">
-        <h4 class="">{{Category}}: <small>{{subtitle}}</small></h4>
-      </div>
+      <a class="col-md-4  btn text-white btn-filter {{categoryID}}" data-filter=".{{categoryID}}">
+      {{Category}}: <br><small>{{subtitle}}</small>
+      </a>
       {{/if}}
     </script>
 
@@ -21,30 +21,32 @@
     </script>
 
     <script id="buttons-template" type="text/x-handlebars-template">
-      <li><a class="text-white btn-filter" data-filter=".{{categoryID}}">{{Category}}</a></li>
+      <a class="btn-filter  dropdown-item" data-filter=".{{categoryID}}">{{Category}}</a>
     </script>
   </head>
   <body>
     <div class="about gird container">
 
     </div>
-    <nav class="navbar navbar-inverse ">
-      <div class="button-group filter-button-group container">
-        <ul class="nav navbar-nav">
-          <li><a class="btn text-white btn-filter" data-filter="*">Show All</a></li>
-          <li class="dropdown">
-          <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Category <span class="caret"></span></a>
-          <ul class="dropdown-menu">
-          </ul>
-        </li>
+    <nav class="navbar navbar-toggleable-sm navbar-inverse bg-inverse">
+      <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarToggler" aria-controls="navbarTogglerDemo01" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="button-group filter-button-group container collapse navbar-collapse" id="navbarToggler">
+        <ul class="nav justify-content-center">
+          <li class="nav-item"><a class="btn text-white btn-filter" data-filter="*">Show All</a></li>
+          <li class="dropdown nav-item">
+            <a href="#" class="nav-link dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Category<span class="caret"></span></a>
+            <div class="dropdown-menu">
+            </div>
+          </li>
         </ul>
-        <form class=" navbar-form">
-          <div class="form-group">
-            <input type="text" class="quicksearch form-control" placeholder="Search By Keyword" />
-          </div>
+        <form class="form-inline my-2 my-lg-0">
+          <input type="text" class="quicksearch form-control  mr-sm-2" placeholder="Search By Keyword" />
         </form>
-        <!-- <button data-filter=":not(.transition)">not transition</button>
-        <button data-filter=".metal:not(.transition)">metal but not transition</button> -->
+        <ul id="category-buttons">
+
+        </ul>
       </div>
     </nav>
 
@@ -53,7 +55,8 @@
     </div>
 
     <script type="text/javascript" src="vendor/scripts/jquery.js"></script>
-    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/tether/1.4.0/js/tether.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-alpha.6/js/bootstrap.min.js" integrity="sha384-vBWWzlZJ8ea9aCX4pEW3rVHjgjt7zpkNpZk+02D9phzyeVkE+jo0ieGizqPLForn" crossorigin="anonymous"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/handlebars.js/4.0.6/handlebars.min.js"></script>
     <script src="https://unpkg.com/isotope-layout@3/dist/isotope.pkgd.min.js"></script>
     <script type="text/javascript" src="data.js"></script>

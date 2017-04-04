@@ -36,5 +36,7 @@ Tool.renderAll = function(templateid, parent, array) {
   }
 }
 
+
+
 Tool.renderAll('#toolGrid-template', '.grid', tools)
 Tool.renderAll('#buttons-template', '.dropdown-menu', Tool.allCategories)
