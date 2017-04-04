@@ -4,13 +4,13 @@ var $grid = $('.grid').isotope({
 
 });
 
-// function categories(){
-//   var source = $('#category-template').html();
-//   var renderTemplate = Handlebars.compile(source);
-//   Tool.allCategories.forEach(function(ele){
-//     $(renderTemplate(ele)).addClass('element-item-menu my-2 my-sm-0').appendTo($('#category-buttons'))
-//   })
-// }
+function categories(){
+  var source = $('#category-template').html();
+  var renderTemplate = Handlebars.compile(source);
+  Tool.allCategories.forEach(function(ele){
+    $(renderTemplate(ele)).addClass('element-item-menu my-2 my-sm-0').appendTo($('#category-buttons'))
+  })
+}
 
 // filter items on button click
 $('.filter-button-group').on('click', '.btn-filter', function() {
@@ -51,4 +51,4 @@ function debounce( fn, threshold ) {
   }
 }
 
-categories();
+// categories();
