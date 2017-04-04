@@ -24,7 +24,7 @@
       <a class="btn-filter  dropdown-item" data-filter=".{{categoryID}}">{{Category}}</a>
     </script>
   </head>
-  <body>
+  <body id="iframe-body">
     <div class="about gird container">
 
     </div>
@@ -62,5 +62,25 @@
     <script type="text/javascript" src="data.js"></script>
     <script type="text/javascript" src="scripts/tools.js"></script>
     <script type="text/javascript" src="scripts/toolView.js"></script>
+    <script type="text/javascript">
+    $(window).load(function ()
+          {
+            UpdateDimensions();
+          });
+
+          function UpdateDimensions() {
+            ReferalUrl = 'http://www.pgrn.org/tools.html';
+            try  {
+              var height = $("#iframe-body").height() + 30;
+              var width = $("#iframe-body").outerWidth() + 100;
+
+            if (window.postMessage && ReferalUrl != undefined) {
+              parent.postMessage(height + "," + width, ReferalUrl);
+              }
+            } catch (c) {
+              alert(c.message);
+              }
+            }
+    </script>
   </body>
 </html>
