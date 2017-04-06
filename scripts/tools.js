@@ -37,6 +37,14 @@ Tool.renderAll = function(templateid, parent, array) {
 }
 
 
+$(window).resize(function(){
+  var footerHeight = $('.footer').height();
+  var headerHeight = $('.banner-wrap').height();
+  var navHeight = $('.birdseye-header').height();
+  var docHeight = window.innerHeight;
+  $('iframe').height(docHeight - navHeight - headerHeight - footerHeight)
+})
+
 
 Tool.renderAll('#toolGrid-template', '.grid', tools)
 Tool.renderAll('#buttons-template', '.dropdown-menu', Tool.allCategories)

@@ -4,7 +4,7 @@ var tools = [
     "name": "Clinical Pharmacogenetics Implementation Consortium® (CPIC)",
     "url": "https://cpicpgx.org/",
     "Keywords": "gene-drug pair, pharmacogenomics",
-    "Category": "PGx Primary Tools",
+    "Category": "Primary for Pharmacogenomics",
     "Subtitle": "Resources and topics related to pharmacogenomics and precision medicine.",
     "stats": ""
   },
@@ -13,7 +13,7 @@ var tools = [
     "name": "Pharmacogenomic Biomarkers in Drug Labeling",
     "url": "http://www.fda.gov/Drugs/ScienceResearch/ResearchAreas/Pharmacogenetics/ucm083378.htm",
     "Keywords": "drug label, FDA, pharmacogenomics",
-    "Category": "PGx Primary Tools",
+    "Category": "Primary for Pharmacogenomics",
     "Subtitle": "Resources and topics related to pharmacogenomics and precision medicine.",
     "stats": ""
   },
@@ -22,7 +22,7 @@ var tools = [
     "name": "Pharmacogenomics Knowledgebase (PharmGKB)",
     "url": "https://www.pharmgkb.org/",
     "Keywords": "SNP, pharmacogenes, pathway, gene-drug pair, pharmacogenomics",
-    "Category": "PGx Primary Tools",
+    "Category": "Primary for Pharmacogenomics",
     "Subtitle": "Resources and topics related to pharmacogenomics and precision medicine.",
     "stats": ""
   },
@@ -32,7 +32,7 @@ var tools = [
     "url": "http://genenetwork.nl/bloodeqtlbrowser/",
     "Keywords": "eQTL, blood, SNP",
     "Category": "eQTL Databases",
-    "Subtitle": "​Results of several research projects on association between genetic variations and expression phenotypes.",
+    "Subtitle": "​ These resources archive or display results of several research projects on association between genetic variations and expression phenotypes.",
     "stats": ""
   },
   {
@@ -41,7 +41,7 @@ var tools = [
     "url": "http://eqtl.uchicago.edu/cgi-bin/gbrowse/eqtl",
     "Keywords": "eQTL, SNP, variants, liver, LCL",
     "Category": "eQTL Databases",
-    "Subtitle": "​Results of several research projects on association between genetic variations and expression phenotypes.",
+    "Subtitle": "​ These resources archive or display results of several research projects on association between genetic variations and expression phenotypes.",
     "stats": ""
   },
   {
@@ -50,7 +50,7 @@ var tools = [
     "url": "http://www.gtexportal.org/home/",
     "Keywords": "eQTL, SNP, RNAseq, variants, expression, transcriptome",
     "Category": "eQTL Databases",
-    "Subtitle": "​Results of several research projects on association between genetic variations and expression phenotypes.",
+    "Subtitle": "​ These resources archive or display results of several research projects on association between genetic variations and expression phenotypes.",
     "stats": ""
   },
   {
@@ -59,7 +59,7 @@ var tools = [
     "url": "https://www.ncbi.nlm.nih.gov/pubmed/23474282",
     "Keywords": "eQTL, intestine",
     "Category": "eQTL Databases",
-    "Subtitle": "​Results of several research projects on association between genetic variations and expression phenotypes.",
+    "Subtitle": "​ These resources archive or display results of several research projects on association between genetic variations and expression phenotypes.",
     "stats": ""
   },
   {
@@ -68,7 +68,7 @@ var tools = [
     "url": "http://www.scandb.org/newinterface/index_v1.html",
     "Keywords": "eQTL, SNP, CNV, linkage disequilibrium, variants, polymorphisms, LCL",
     "Category": "eQTL Databases",
-    "Subtitle": "​Results of several research projects on association between genetic variations and expression phenotypes.",
+    "Subtitle": "​ These resources archive or display results of several research projects on association between genetic variations and expression phenotypes.",
     "stats": ""
   },
   {
@@ -77,7 +77,7 @@ var tools = [
     "url": "http://biogps.org/#goto=welcome",
     "Keywords": "tissue, expression, human, mouse, rat",
     "Category": "Expression Databases",
-    "Subtitle": "Results of mRNA or protein levels in cancer cell lines, normal or cancer tissues.",
+    "Subtitle": "These databases archive or display results on mRNA or protein levels in cancer cell lines, normal or cancer tissues.",
     "stats": ""
   },
   {
@@ -86,7 +86,7 @@ var tools = [
     "url": "https://portals.broadinstitute.org/ccle/home",
     "Keywords": "Cancer, cell lines, expression, RNASeq, mutation, copy number, drug IC50",
     "Category": "Expression Databases",
-    "Subtitle": "Results of mRNA or protein levels in cancer cell lines, normal or cancer tissues.",
+    "Subtitle": "These databases archive or display results on mRNA or protein levels in cancer cell lines, normal or cancer tissues.",
     "stats": ""
   },
   {
@@ -95,7 +95,7 @@ var tools = [
     "url": "http://www.cbioportal.org/",
     "Keywords": "cancer, mutation, tumor, tissues, genomics, copy number, RNASeq",
     "Category": "Expression Databases",
-    "Subtitle": "Results of mRNA or protein levels in cancer cell lines, normal or cancer tissues.",
+    "Subtitle": "These databases archive or display results on mRNA or protein levels in cancer cell lines, normal or cancer tissues.",
     "stats": ""
   },
   {
@@ -113,7 +113,7 @@ var tools = [
     "url": "http://medical-genome.kribb.re.kr/GENT/",
     "Keywords": "SNP, RNAseq, variants, expression, transcriptome",
     "Category": "Expression Databases",
-    "Subtitle": "Results on mRNA or protein levels in cancer cell lines, normal or cancer tissues.",
+    "Subtitle": "These databases archive or display results on mRNA or protein levels in cancer cell lines, normal or cancer tissues.",
     "stats": ""
   },
   {
@@ -122,7 +122,7 @@ var tools = [
     "url": "https://www.ncbi.nlm.nih.gov/gds",
     "Keywords": "gene expression, repository, queries",
     "Category": "Expression Databases",
-    "Subtitle": "Results on mRNA or protein levels in cancer cell lines, normal or cancer tissues.",
+    "Subtitle": "These databases archive or display results on mRNA or protein levels in cancer cell lines, normal or cancer tissues.",
     "stats": ""
   },
   {
@@ -131,7 +131,7 @@ var tools = [
     "url": "http://www.gtexportal.org/home/",
     "Keywords": "eQTL, SNP, RNAseq, variants, expression, transcriptome",
     "Category": "Expression Databases",
-    "Subtitle": "Results on mRNA or protein levels in cancer cell lines, normal or cancer tissues.",
+    "Subtitle": "These databases archive or display results on mRNA or protein levels in cancer cell lines, normal or cancer tissues.",
     "stats": ""
   },
   {
@@ -140,7 +140,7 @@ var tools = [
     "url": "http://www.proteinatlas.org/",
     "Keywords": "human tissues, expression, protein, immunohistochemistry",
     "Category": "Expression Databases",
-    "Subtitle": "Results on mRNA or protein levels in cancer cell lines, normal or cancer tissues.",
+    "Subtitle": "These databases archive or display results on mRNA or protein levels in cancer cell lines, normal or cancer tissues.",
     "stats": ""
   },
   {
@@ -149,7 +149,7 @@ var tools = [
     "url": "https://www.tgen.org/home/research/research-divisions/neurogenomics/supplementary-data/inner-ear-transcriptome.aspx#.WKTsKGQrJz8",
     "Keywords": "Inner ear, expression",
     "Category": "Expression Databases",
-    "Subtitle": "Results on mRNA or protein levels in cancer cell lines, normal or cancer tissues.",
+    "Subtitle": "These databases archive or display results on mRNA or protein levels in cancer cell lines, normal or cancer tissues.",
     "stats": ""
   },
   {
@@ -158,7 +158,7 @@ var tools = [
     "url": "http://pharmacogenetics.ucsf.edu/cgi-bin/menu.py?menu=data",
     "Keywords": "ABC transporters, SLC transporters, expression, sequencing",
     "Category": "Expression Databases",
-    "Subtitle": "Results on mRNA or protein levels in cancer cell lines, normal or cancer tissues.",
+    "Subtitle": "These databases archive or display results on mRNA or protein levels in cancer cell lines, normal or cancer tissues.",
     "stats": ""
   },
   {
@@ -167,7 +167,7 @@ var tools = [
     "url": "http://refdic.rcai.riken.jp/welcome.cgi",
     "Keywords": "immune cells, expression",
     "Category": "Expression Databases",
-    "Subtitle": "Results on mRNA or protein levels in cancer cell lines, normal or cancer tissues.",
+    "Subtitle": "These databases archive or display results on mRNA or protein levels in cancer cell lines, normal or cancer tissues.",
     "stats": ""
   },
   {
@@ -176,7 +176,7 @@ var tools = [
     "url": "http://medicalgenomics.org/rna_seq_atlas",
     "Keywords": "expression, cell line, RNAseq, tissue",
     "Category": "Expression Databases",
-    "Subtitle": "Results on mRNA or protein levels in cancer cell lines, normal or cancer tissues.",
+    "Subtitle": "These databases archive or display results on mRNA or protein levels in cancer cell lines, normal or cancer tissues.",
     "stats": ""
   },
   {
@@ -185,7 +185,7 @@ var tools = [
     "url": "https://tcga-data.nci.nih.gov/docs/publications/tcga/?",
     "Keywords": "cancer, clinical data, tissue expression, SNP, sequencing",
     "Category": "Expression Databases",
-    "Subtitle": "Results on mRNA or protein levels in cancer cell lines, normal or cancer tissues.",
+    "Subtitle": "These databases archive or display results on mRNA or protein levels in cancer cell lines, normal or cancer tissues.",
     "stats": ""
   },
   {
@@ -194,7 +194,7 @@ var tools = [
     "url": "https://www.tgen.org/home/research/research-divisions/neurogenomics/supplementary-data.aspx#.WKTsqGQrJz8",
     "Keywords": "Neurodegenerative, expression profiling",
     "Category": "Expression Databases",
-    "Subtitle": "Results on mRNA or protein levels in cancer cell lines, normal or cancer tissues.",
+    "Subtitle": "These databases archive or display results on mRNA or protein levels in cancer cell lines, normal or cancer tissues.",
     "stats": ""
   },
   {
@@ -203,7 +203,7 @@ var tools = [
     "url": "http://dbts.ucsf.edu/fdatransportal/index/",
     "Keywords": "transporters, kidney, liver, intestine",
     "Category": "Expression Databases",
-    "Subtitle": "Results on mRNA or protein levels in cancer cell lines, normal or cancer tissues.",
+    "Subtitle": "These databases archive or display results on mRNA or protein levels in cancer cell lines, normal or cancer tissues.",
     "stats": ""
   },
   {
@@ -212,7 +212,7 @@ var tools = [
     "url": "https://www.synapse.org/#!Synapse:syn7222066/wiki/405659",
     "Keywords": "cancer, clinical data, mutation",
     "Category": "Genotype-Phenotype Databases",
-    "Subtitle": "Correlative or association results between expression levels or genetic variants with phenotypes (e.g. drug toxicity, traits, disease, metabolites levels).",
+    "Subtitle": "These databases archive or display correlative or association results between expression levels or genetic variants with phenotypes (e.g. drug toxicity, traits, disease, metabolites levels).",
     "stats": ""
   },
   {
@@ -221,7 +221,7 @@ var tools = [
     "url": "http://attie-2.biochem.wisc.edu/diabetes/",
     "Keywords": "Diabetes, Expression, mouse, strain",
     "Category": "Genotype-Phenotype Databases",
-    "Subtitle": "Correlative or association results between expression levels or genetic variants with phenotypes (e.g. drug toxicity, traits, disease, metabolites levels).",
+    "Subtitle": "These databases archive or display correlative or association results between expression levels or genetic variants with phenotypes (e.g. drug toxicity, traits, disease, metabolites levels).",
     "stats": ""
   },
   {
@@ -230,7 +230,7 @@ var tools = [
     "url": "http://circadb.hogeneschlab.org/",
     "Keywords": "mouse, expression",
     "Category": "Genotype-Phenotype Databases",
-    "Subtitle": "Correlative or association results between expression levels or genetic variants with phenotypes (e.g. drug toxicity, traits, disease, metabolites levels).",
+    "Subtitle": "These databases archive or display correlative or association results between expression levels or genetic variants with phenotypes (e.g. drug toxicity, traits, disease, metabolites levels).",
     "stats": ""
   },
   {
@@ -239,7 +239,7 @@ var tools = [
     "url": "https://www.clinicalgenome.org/",
     "Keywords": "genotype, phenotype, SNP",
     "Category": "Genotype-Phenotype Databases",
-    "Subtitle": "Correlative or association results between expression levels or genetic variants with phenotypes (e.g. drug toxicity, traits, disease, metabolites levels).",
+    "Subtitle": "These databases archive or display correlative or association results between expression levels or genetic variants with phenotypes (e.g. drug toxicity, traits, disease, metabolites levels).",
     "stats": ""
   },
   {
@@ -248,7 +248,7 @@ var tools = [
     "url": "https://www.ncbi.nlm.nih.gov/clinvar/",
     "Keywords": "SNP, mutations, clinical conditions, clinical significance",
     "Category": "Genotype-Phenotype Databases",
-    "Subtitle": "Correlative or association results between expression levels or genetic variants with phenotypes (e.g. drug toxicity, traits, disease, metabolites levels).",
+    "Subtitle": "These databases archive or display correlative or association results between expression levels or genetic variants with phenotypes (e.g. drug toxicity, traits, disease, metabolites levels).",
     "stats": ""
   },
   {
@@ -257,7 +257,7 @@ var tools = [
     "url": "http://www.cancerrxgene.org/",
     "Keywords": "expression, cancer cell lines, drug IC50",
     "Category": "Genotype-Phenotype Databases",
-    "Subtitle": "Correlative or association results between expression levels or genetic variants with phenotypes (e.g. drug toxicity, traits, disease, metabolites levels).",
+    "Subtitle": "These databases archive or display correlative or association results between expression levels or genetic variants with phenotypes (e.g. drug toxicity, traits, disease, metabolites levels).",
     "stats": ""
   },
   {
@@ -266,7 +266,7 @@ var tools = [
     "url": "https://grasp.nhlbi.nih.gov/Overview.aspx",
     "Keywords": "genotype, phenotype, SNP",
     "Category": "Genotype-Phenotype Databases",
-    "Subtitle": "Correlative or association results between expression levels or genetic variants with phenotypes (e.g. drug toxicity, traits, disease, metabolites levels).",
+    "Subtitle": "These databases archive or display correlative or association results between expression levels or genetic variants with phenotypes (e.g. drug toxicity, traits, disease, metabolites levels).",
     "stats": ""
   },
   {
@@ -275,7 +275,7 @@ var tools = [
     "url": "https://www.ebi.ac.uk/gwas/",
     "Keywords": "SNP, phenotype, trait, pharmacogenomics",
     "Category": "Genotype-Phenotype Databases",
-    "Subtitle": "Correlative or association results between expression levels or genetic variants with phenotypes (e.g. drug toxicity, traits, disease, metabolites levels).",
+    "Subtitle": "These databases archive or display correlative or association results between expression levels or genetic variants with phenotypes (e.g. drug toxicity, traits, disease, metabolites levels).",
     "stats": ""
   },
   {
@@ -284,7 +284,7 @@ var tools = [
     "url": "http://www.gwascentral.org/",
     "Keywords": "SNP, phenotype, trait",
     "Category": "Genotype-Phenotype Databases",
-    "Subtitle": "Correlative or association results between expression levels or genetic variants with phenotypes (e.g. drug toxicity, traits, disease, metabolites levels).",
+    "Subtitle": "These databases archive or display correlative or association results between expression levels or genetic variants with phenotypes (e.g. drug toxicity, traits, disease, metabolites levels).",
     "stats": ""
   },
   {
@@ -293,7 +293,7 @@ var tools = [
     "url": "http://www.metabolomix.com/a-table-of-all-published-gwas-with-proteomics/",
     "Keywords": "Metabolites, Metabolome, Proteomics",
     "Category": "Genotype-Phenotype Databases",
-    "Subtitle": "Correlative or association results between expression levels or genetic variants with phenotypes (e.g. drug toxicity, traits, disease, metabolites levels).",
+    "Subtitle": "These databases archive or display correlative or association results between expression levels or genetic variants with phenotypes (e.g. drug toxicity, traits, disease, metabolites levels).",
     "stats": ""
   },
   {
@@ -302,7 +302,7 @@ var tools = [
     "url": "https://metabolomics.helmholtz-muenchen.de/pgwas/index.php?task=locuslist",
     "Keywords": "GWAS, human proteome, plasma",
     "Category": "Genotype-Phenotype Databases",
-    "Subtitle": "Correlative or association results between expression levels or genetic variants with phenotypes (e.g. drug toxicity, traits, disease, metabolites levels).",
+    "Subtitle": "These databases archive or display correlative or association results between expression levels or genetic variants with phenotypes (e.g. drug toxicity, traits, disease, metabolites levels).",
     "stats": ""
   },
   {
@@ -311,7 +311,7 @@ var tools = [
     "url": "https://www.immunobase.org/",
     "Keywords": "genotype, SNP, autoimmune disease",
     "Category": "Genotype-Phenotype Databases",
-    "Subtitle": "Correlative or association results between expression levels or genetic variants with phenotypes (e.g. drug toxicity, traits, disease, metabolites levels).",
+    "Subtitle": "These databases archive or display correlative or association results between expression levels or genetic variants with phenotypes (e.g. drug toxicity, traits, disease, metabolites levels).",
     "stats": ""
   },
   {
@@ -320,7 +320,7 @@ var tools = [
     "url": "http://www.mousephenotype.org/",
     "Keywords": "mouse, knockout, phenotype, traits, genes",
     "Category": "Genotype-Phenotype Databases",
-    "Subtitle": "Correlative or association results between expression levels or genetic variants with phenotypes (e.g. drug toxicity, traits, disease, metabolites levels).",
+    "Subtitle": "These databases archive or display correlative or association results between expression levels or genetic variants with phenotypes (e.g. drug toxicity, traits, disease, metabolites levels).",
     "stats": ""
   },
   {
@@ -329,7 +329,7 @@ var tools = [
     "url": "http://toxico.nibiohn.go.jp/open-tggates/english/search.html",
     "Keywords": "drug, compounds, rat, liver, kidney, expression, hepatocytes",
     "Category": "Genotype-Phenotype Databases",
-    "Subtitle": "Correlative or association results between expression levels or genetic variants with phenotypes (e.g. drug toxicity, traits, disease, metabolites levels).",
+    "Subtitle": "These databases archive or display correlative or association results between expression levels or genetic variants with phenotypes (e.g. drug toxicity, traits, disease, metabolites levels).",
     "stats": ""
   },
   {
@@ -338,7 +338,7 @@ var tools = [
     "url": "https://omim.org/",
     "Keywords": "phenotype, rare disease, Mendelian",
     "Category": "Genotype-Phenotype Databases",
-    "Subtitle": "Correlative or association results between expression levels or genetic variants with phenotypes (e.g. drug toxicity, traits, disease, metabolites levels).",
+    "Subtitle": "These databases archive or display correlative or association results between expression levels or genetic variants with phenotypes (e.g. drug toxicity, traits, disease, metabolites levels).",
     "stats": ""
   },
   {
@@ -347,7 +347,7 @@ var tools = [
     "url": "http://www.pacdb.org/",
     "Keywords": "expression, LCL, Lymphoblastoid Cell Lines, drug, chemotherapeutics",
     "Category": "Genotype-Phenotype Databases",
-    "Subtitle": "Correlative or association results between expression levels or genetic variants with phenotypes (e.g. drug toxicity, traits, disease, metabolites levels).",
+    "Subtitle": "These databases archive or display correlative or association results between expression levels or genetic variants with phenotypes (e.g. drug toxicity, traits, disease, metabolites levels).",
     "stats": ""
   },
   {
@@ -356,7 +356,7 @@ var tools = [
     "url": "https://www.phewascatalog.org/",
     "Keywords": "genotype, phenotype, SNP",
     "Category": "Genotype-Phenotype Databases",
-    "Subtitle": "Correlative or association results between expression levels or genetic variants with phenotypes (e.g. drug toxicity, traits, disease, metabolites levels).",
+    "Subtitle": "These databases archive or display correlative or association results between expression levels or genetic variants with phenotypes (e.g. drug toxicity, traits, disease, metabolites levels).",
     "stats": ""
   },
   {
@@ -365,7 +365,7 @@ var tools = [
     "url": "https://systems.genetics.ucla.edu/",
     "Keywords": "mouse, expression, hybrid mouse diversity panel, traits, transcriptome, obesity, diabetes, fatty liver",
     "Category": "Genotype-Phenotype Databases",
-    "Subtitle": "Correlative or association results between expression levels or genetic variants with phenotypes (e.g. drug toxicity, traits, disease, metabolites levels).",
+    "Subtitle": "These databases archive or display correlative or association results between expression levels or genetic variants with phenotypes (e.g. drug toxicity, traits, disease, metabolites levels).",
     "stats": ""
   },
   {
@@ -374,7 +374,7 @@ var tools = [
     "url": "https://tcga-data.nci.nih.gov/docs/publications/tcga/?",
     "Keywords": "Cancer, Clinical data, Tissue expression, SNP, Sequencing, somatic mutation",
     "Category": "Genotype-Phenotype Databases",
-    "Subtitle": "Correlative or association results between expression levels or genetic variants with phenotypes (e.g. drug toxicity, traits, disease, metabolites levels).",
+    "Subtitle": "These databases archive or display correlative or association results between expression levels or genetic variants with phenotypes (e.g. drug toxicity, traits, disease, metabolites levels).",
     "stats": ""
   },
   {
@@ -383,7 +383,7 @@ var tools = [
     "url": "https://www.ncbi.nlm.nih.gov/gap",
     "Keywords": "genotype, phenotype, SNP",
     "Category": "Genotype-Phenotype Databases",
-    "Subtitle": "Correlative or association results between expression levels or genetic variants with phenotypes (e.g. drug toxicity, traits, disease, metabolites levels).",
+    "Subtitle": "These databases archive or display correlative or association results between expression levels or genetic variants with phenotypes (e.g. drug toxicity, traits, disease, metabolites levels).",
     "stats": ""
   },
   {
@@ -392,7 +392,7 @@ var tools = [
     "url": "http://www.cypalleles.ki.se/",
     "Keywords": "Cyptochrome P450, in vitro",
     "Category": "Genotype-Phenotype Databases",
-    "Subtitle": "Correlative or association results between expression levels or genetic variants with phenotypes (e.g. drug toxicity, traits, disease, metabolites levels).",
+    "Subtitle": "These databases archive or display correlative or association results between expression levels or genetic variants with phenotypes (e.g. drug toxicity, traits, disease, metabolites levels).",
     "stats": ""
   },
   {
@@ -401,7 +401,7 @@ var tools = [
     "url": "http://metabolomics.helmholtz-muenchen.de/gwas/",
     "Keywords": "Metabolites, Metabolome, SNP",
     "Category": "Genotype-Phenotype Databases",
-    "Subtitle": "Correlative or association results between expression levels or genetic variants with phenotypes (e.g. drug toxicity, traits, disease, metabolites levels).",
+    "Subtitle": "These databases archive or display correlative or association results between expression levels or genetic variants with phenotypes (e.g. drug toxicity, traits, disease, metabolites levels).",
     "stats": ""
   },
   {
@@ -410,7 +410,7 @@ var tools = [
     "url": "http://www.type2diabetesgenetics.org/",
     "Keywords": "SNP, diabetes, glucose, insulin, lipid, obesity, sequencing",
     "Category": "Genotype-Phenotype Databases",
-    "Subtitle": "Correlative or association results between expression levels or genetic variants with phenotypes (e.g. drug toxicity, traits, disease, metabolites levels).",
+    "Subtitle": "These databases archive or display correlative or association results between expression levels or genetic variants with phenotypes (e.g. drug toxicity, traits, disease, metabolites levels).",
     "stats": ""
   },
   {
@@ -419,7 +419,7 @@ var tools = [
     "url": "http://phase3browser.1000genomes.org/index.html",
     "Keywords": "Sequencing, SNP, ethnic populations",
     "Category": "Human Variations Databases",
-    "Subtitle": "Results on genetic variations (germline or somatic) in different population cohorts.",
+    "Subtitle": "These databases archive or display results on genetic variations (germline or somatic) in different population cohorts.",
     "stats": ""
   },
   {
@@ -428,7 +428,7 @@ var tools = [
     "url": "https://www.ncbi.nlm.nih.gov/SNP/",
     "Keywords": "genotype, alele frequency, ethnic populations",
     "Category": "Human Variations Databases",
-    "Subtitle": "Results on genetic variations (germline or somatic) in different population cohorts.",
+    "Subtitle": "These databases archive or display results on genetic variations (germline or somatic) in different population cohorts.",
     "stats": ""
   },
   {
@@ -437,7 +437,7 @@ var tools = [
     "url": "http://www.discovehrshare.com/",
     "Keywords": "genotype, alele frequency, ethnic populations",
     "Category": "Human Variations Databases",
-    "Subtitle": "Results on genetic variations (germline or somatic) in different population cohorts.",
+    "Subtitle": "These databases archive or display results on genetic variations (germline or somatic) in different population cohorts.",
     "stats": ""
   },
   {
@@ -446,7 +446,7 @@ var tools = [
     "url": "http://exac.broadinstitute.org/",
     "Keywords": "genotype, alele frequency, ethnic populations",
     "Category": "Human Variations Databases",
-    "Subtitle": "Results on genetic variations (germline or somatic) in different population cohorts.",
+    "Subtitle": "These databases archive or display results on genetic variations (germline or somatic) in different population cohorts.",
     "stats": ""
   },
   {
@@ -455,7 +455,7 @@ var tools = [
     "url": "http://evs.gs.washington.edu/EVS/",
     "Keywords": "genotype, alele frequency, ethnic populations",
     "Category": "Human Variations Databases",
-    "Subtitle": "Results on genetic variations (germline or somatic) in different population cohorts.",
+    "Subtitle": "These databases archive or display results on genetic variations (germline or somatic) in different population cohorts.",
     "stats": ""
   },
   {
@@ -464,7 +464,16 @@ var tools = [
     "url": "http://geno2mp.gs.washington.edu/Geno2MP/#/",
     "Keywords": "genotype, phenotype,allele frequency",
     "Category": "Human Variations Databases",
-    "Subtitle": "Results on genetic variations (germline or somatic) in different population cohorts.",
+    "Subtitle": "These databases archive or display results on genetic variations (germline or somatic) in different population cohorts.",
+    "stats": ""
+  },
+  {
+    "Top_choice": "4/5/2017",
+    "name": "gnomAD browser",
+    "url": "http://gnomad.broadinstitute.org/",
+    "Keywords": "genotype, phenotype,allele frequency",
+    "Category": "Human Variations Databases",
+    "Subtitle": "These databases archive or display results on genetic variations (germline or somatic) in different population cohorts.",
     "stats": ""
   },
   {
@@ -473,7 +482,7 @@ var tools = [
     "url": "http://www.cephb.fr/en/hgdp_panel.php#basedonnees",
     "Keywords": "LCL, world population",
     "Category": "Human Variations Databases",
-    "Subtitle": "Results on genetic variations (germline or somatic) in different population cohorts.",
+    "Subtitle": "These databases archive or display results on genetic variations (germline or somatic) in different population cohorts.",
     "stats": ""
   },
   {
@@ -482,7 +491,7 @@ var tools = [
     "url": "http://www4a.biotec.or.th/PASNP/front-page",
     "Keywords": "Genotypes, Population, Asians, SNP, ethnic populations",
     "Category": "Human Variations Databases",
-    "Subtitle": "Results on genetic variations (germline or somatic) in different population cohorts.",
+    "Subtitle": "These databases archive or display results on genetic variations (germline or somatic) in different population cohorts.",
     "stats": ""
   },
   {
@@ -491,7 +500,7 @@ var tools = [
     "url": "http://explorepcgp.org/",
     "Keywords": "Sequencing, SNP, pediatric, cancer, somatic mutations",
     "Category": "Human Variations Databases",
-    "Subtitle": "Results on genetic variations (germline or somatic) in different population cohorts.",
+    "Subtitle": "These databases archive or display results on genetic variations (germline or somatic) in different population cohorts.",
     "stats": ""
   },
   {
@@ -500,7 +509,7 @@ var tools = [
     "url": "http://pharmacogenetics.ucsf.edu/cgi-bin/Study.py",
     "Keywords": "ABC transporters, SLC transporters, expression, sequencing, ethnic",
     "Category": "Human Variations Databases",
-    "Subtitle": "Results on genetic variations (germline or somatic) in different population cohorts.",
+    "Subtitle": "These databases archive or display results on genetic variations (germline or somatic) in different population cohorts.",
     "stats": ""
   },
   {
@@ -509,7 +518,7 @@ var tools = [
     "url": "https://reich.hms.harvard.edu/datasets",
     "Keywords": "SNP, genotype, ethnic, ancient individual",
     "Category": "Human Variations Databases",
-    "Subtitle": "Results on genetic variations (germline or somatic) in different population cohorts.",
+    "Subtitle": "These databases archive or display results on genetic variations (germline or somatic) in different population cohorts.",
     "stats": ""
   },
   {
@@ -518,7 +527,7 @@ var tools = [
     "url": "https://www.emergesphinx.org/",
     "Keywords": "SNP, sequencing, ethnic populations",
     "Category": "Human Variations Databases",
-    "Subtitle": "Results on genetic variations (germline or somatic) in different population cohorts.",
+    "Subtitle": "These databases archive or display results on genetic variations (germline or somatic) in different population cohorts.",
     "stats": ""
   },
   {
@@ -621,6 +630,15 @@ var tools = [
     "stats": ""
   },
   {
+    "Top_choice": "4/5/2017",
+    "name": "STRING 9.1 Database",
+    "url": "http://string.embl.de/",
+    "Keywords": "protein-protein interaction",
+    "Category": "Functional and Genomic Databases",
+    "Subtitle": "These tools or resources are widely used to determine protein-protein interactions.",
+    "stats": ""
+  },
+  {
     "Top_choice": "",
     "name": "The Islet Regulome Browser",
     "url": "http://gattaca.imppc.org/isletregulome/home",
@@ -679,6 +697,15 @@ var tools = [
     "name": "Ensembl",
     "url": "http://uswest.ensembl.org/index.html",
     "Keywords": "browser",
+    "Category": "Tools for Analysis",
+    "Subtitle": "These tools are widely used for various analyses, including imputation, or visualization of genome sequence data and genetic association studies.",
+    "stats": ""
+  },
+  {
+    "Top_choice": "4/5/2017",
+    "name": "GREAT",
+    "url": "http://bejerano.stanford.edu/great/public/html/",
+    "Keywords": "predicts functions of regulatory regions",
     "Category": "Tools for Analysis",
     "Subtitle": "These tools are widely used for various analyses, including imputation, or visualization of genome sequence data and genetic association studies.",
     "stats": ""
