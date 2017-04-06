@@ -4,7 +4,7 @@ var tools = [
     "name": "Clinical Pharmacogenetics Implementation Consortium® (CPIC)",
     "url": "https://cpicpgx.org/",
     "Keywords": "gene-drug pair, pharmacogenomics",
-    "Category": "Primary for Pharmacogenomics",
+    "Category": "PGxPrimaryTools",
     "Subtitle": "Resources and topics related to pharmacogenomics and precision medicine.",
     "stats": ""
   },
@@ -13,7 +13,7 @@ var tools = [
     "name": "Pharmacogenomic Biomarkers in Drug Labeling",
     "url": "http://www.fda.gov/Drugs/ScienceResearch/ResearchAreas/Pharmacogenetics/ucm083378.htm",
     "Keywords": "drug label, FDA, pharmacogenomics",
-    "Category": "Primary for Pharmacogenomics",
+    "Category": "PGxPrimaryTools",
     "Subtitle": "Resources and topics related to pharmacogenomics and precision medicine.",
     "stats": ""
   },
@@ -22,7 +22,7 @@ var tools = [
     "name": "Pharmacogenomics Knowledgebase (PharmGKB)",
     "url": "https://www.pharmgkb.org/",
     "Keywords": "SNP, pharmacogenes, pathway, gene-drug pair, pharmacogenomics",
-    "Category": "Primary for Pharmacogenomics",
+    "Category": "PGxPrimaryTools",
     "Subtitle": "Resources and topics related to pharmacogenomics and precision medicine.",
     "stats": ""
   },
