@@ -14,6 +14,8 @@ userresponse.once("value", function(snapshot) {
   renderMetaData('#resources', createMetaData('resources'))
   renderMetaData('#expertise', createMetaData('expertise'));
   renderMetaData('#dieases', createMetaData('dieases'));
+  renderMetaData('#research-state', researchState);
+
 
 });
 
