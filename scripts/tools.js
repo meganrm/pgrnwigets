@@ -55,7 +55,6 @@ Tool.fetchAllGoogle = function () {
         console.error('No data found')
       } else {
         var encodedArray = Tool.loadAll(rows)
-        console.log(encodedArray);
         resolve(encodedArray)
       }
     })
