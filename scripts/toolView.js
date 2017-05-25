@@ -1,8 +1,5 @@
 
-var $grid = $('.grid').isotope({
-  itemSelector: '.element-item',
-
-});
+var $grid
 
 function categories(){
   var source = $('#category-template').html();

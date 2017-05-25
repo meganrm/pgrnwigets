@@ -11,11 +11,16 @@
       {{Category}}: <br><small>{{subtitle}}</small>
       </a>
       {{/if}}
+
     </script>
 
     <script id="toolGrid-template" type="text/x-handlebars-template">
       <div class="element-item {{name}} {{#each keywordsList}}{{this }}{{/each}} {{categoryID}} {{#if Top_choice}}topChoice{{/if}}">
-        <h4><a href="{{url}}" target="_blank">{{name}}</a></h4>
+        <div class="header"><h4><a href="{{url}}" target="_blank">{{name}}</a></h4></div>
+
+        {{#if Descriptions}}
+        <div class="description"><small>{{Descriptions}}</small></div>
+        {{/if}}
         {{#if stats}}<a href="{{stats}}" target="_blank">View Summary Statistics</a>{{/if}}
       </div>
     </script>
@@ -64,6 +69,7 @@
     <script type="text/javascript" src="data.js"></script>
     <script type="text/javascript" src="scripts/tools.js"></script>
     <script type="text/javascript" src="scripts/toolView.js"></script>
+
 
   </body>
 </html>
