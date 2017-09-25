@@ -44,6 +44,43 @@ h4 {
 .navbar-inverse .navbar-nav>li>a{
   color: white;
 }
+ul{
+  cursor: pointer;
+}
+ul .btn-filter{
+  padding: 3px;
+}
+ul .btn-filter:hover{
+  box-shadow: 0px 4px 21px #717171;
+}
+.PGxPrimaryTools-text{
+  color:#aaccb1;
+}
+.Genotype-PhenotypeDatabases-text{
+  color: #547980;
+}
+.ExpressionDatabases-text{
+  color: #5D4157;
+}
+.eQTLDatabases-text{
+  color: #413E4A;
+}
+.ExpressionDatabases-text{
+  color: #99B2B7;
+}
+.HumanVariationsDatabases-text{
+  color: #A7DBD8;
+}
+.FunctionalandGenomicDatabases-text{
+  color: #594F4F;
+}
+.ToolsforAnalysis-text{
+  color: #7A6A53;
+}
+.SummaryStatistics-text{
+  color:#68B3AF;
+}
+
 .ExpressionDatabases{
   background-color: #5D4157;
   border-color: #5D4157;
